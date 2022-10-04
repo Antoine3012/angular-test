@@ -1,6 +1,7 @@
 import { Title } from '@angular/platform-browser';
 
 export class FaceSnap {
+  id!: number;
   title!: string;
   description!: string;
   imageUrl!: string;
